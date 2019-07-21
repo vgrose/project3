@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sen-twi-ment</title>
+  <script src="https://kit.fontawesome.com/e8ed3b3416.js"></script>
+  <!-- <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/sketchy/bootstrap.min.css" rel="stylesheet" integrity="sha384-N8DsABZCqc1XWbg/bAlIDk7AS/yNzT5fcKzg/TwfmTuUqZhGquVmpb5VvfmLcMzp" crossorigin="anonymous"> -->
+  <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+  <link rel="stylesheet" type="text/css" href="../static/css/style2">
+</head>
+
+<body>
+<!-- 
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1 class="text-info">world wide wtf</h1>
+        <div class="row">
+          <div class="col-2 text-center">
+          </div>
+        </div>
+        <p>How does the internet feel about topics you're interested in? Let's find out!</p>
+      </div>
+    </div> -->
+    
+    <div class="wrapper">
+      <!-- Sidebar  -->
+      <nav id="sidebar">
+          <div class="sidebar-header">
+              <h3>Bootstrap Sidebar</h3>
+              <strong>BS</strong>
+          </div>
+  
+          <ul class="list-unstyled components">
+              <li class="active">
+                  <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                      <i class="fas fa-home"></i>
+                      Home
+                  </a>
+                  <ul class="collapse list-unstyled" id="homeSubmenu">
+                      <li>
+                          <a href="#">Home 1</a>
+                      </li>
+                      <li>
+                          <a href="#">Home 2</a>
+                      </li>
+                      <li>
+                          <a href="#">Home 3</a>
+                      </li>
+                  </ul>
+              </li>
+              <li>
+                  <a href="#">
+                      <i class="fas fa-briefcase"></i>
+                      About
+                  </a>
+                  <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                      <i class="fas fa-copy"></i>
+                      Pages
+                  </a>
+                  <ul class="collapse list-unstyled" id="pageSubmenu">
+                      <li>
+                          <a href="#">Page 1</a>
+                      </li>
+                      <li>
+                          <a href="#">Page 2</a>
+                      </li>
+                      <li>
+                          <a href="#">Page 3</a>
+                      </li>
+                  </ul>
+              </li>
+          </ul>
+  
+      </nav>
+  
+      <!-- Page Content  -->
+      <div id="content">
+  
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="container-fluid">
+  
+                  <button type="button" id="sidebarCollapse" class="btn btn-info">
+                      <i class="fas fa-align-left"></i>
+                      <span>Toggle Sidebar</span>
+                  </button>
+              </div>
+          </nav>
+      </div>
+  </div>
+
+    <!-- <script src="https://cdn.plot.ly/plotly-1.31.2.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> -->
+  <!-- <script src="{{ url_for('static', filename='js/bonus.js') }}"></script> -->
+  <script src="../static/js/app.js"></script>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Collapsible sidebar using Bootstrap 4</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="../static/css/style2.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+        integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+        integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    </div>
+    <div id="content">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+
+                <button type="button" id="sidebarCollapse" class="btn btn-info">
+                    <i class="fas fa-align-left"></i>
+                    <span>Toggle Sidebar</span>
+                </button>
+
+            </div>
+        </nav>
+    </div>
+    <div class="wrapper">
+        <!-- Sidebar -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h2>World Wide What the Feel</h2>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="#">About</a>
+                </li>
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Maps</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="#">US</a>
+                        </li>
+                        <li>
+                            <a href="#">Global</a>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li class="active">
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false"
+                        class="dropdown-toggle">Pages</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="#" class="active">Page 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="active">
+                    <a href="#">Portfolio</a>
+                </li>
+                <li class="active">
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+<div class="content">
+        <div class="row">
+                <div class="col-md-12 jumbotron text-center">
+                  <h1 class="text-info">world wide w-t-feel</h1>
+                  <div class="row">
+                    <div class="col-2 text-center">
+                    </div>
+                  </div>
+                  <p>How does the internet feel about topics you're interested in? Let's find out!</p>
+                </div>
+              </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+    <script src="../static/js/app.js"></script>
+
+</body>
+
+</html>
