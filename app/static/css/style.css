@@ -175,7 +175,8 @@ caption {
   caption-side: bottom; }
 
 th {
-  text-align: inherit; }
+  text-align: inherit;
+  font-size: smaller;}
 
 label {
   display: inline-block;
@@ -3558,6 +3559,7 @@ input[type="button"].btn-block {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
+  margin-left: 1.5rem;
   background-color: transparent;
   border-radius: 555px 25px 15px 25px/25px 5px 35px 555px; }
   @media (min-width: 576px) {
@@ -7045,7 +7047,8 @@ blockquote {
 
 table th,
 table td {
-  background-color: #fff; }
+  background-color: #fff;
+  font-variant-caps: small-caps; }
 
 .table-bordered {
   background-color: #333;

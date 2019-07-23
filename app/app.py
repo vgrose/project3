@@ -9,7 +9,8 @@ import numpy as np
 # from sqlalchemy import create_engine
 
 from flask import Flask, jsonify, render_template, request
-from newsapi import NewsApiClient
+# import newsapi
+# from newsapi.newsapi_client import NewsApiClient
 
 
 app = Flask(__name__)
