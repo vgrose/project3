@@ -31,10 +31,10 @@ import os
 # Samples = Base.classes.samples
 
 
-# @app.route("/")
-# def index():
-#     """Return the homepage."""
-#     return render_template("index.html")
+@app.route("/")
+def index():
+    """Return the homepage."""
+    return render_template("index.html")
 
 
 # @app.route("/names")
