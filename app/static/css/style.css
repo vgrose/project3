@@ -176,7 +176,8 @@ caption {
 
 th {
   text-align: inherit;
-  font-size: smaller;}
+  font-size: smaller;
+  color: turquoise !important;}
 
 label {
   display: inline-block;
@@ -7048,7 +7049,9 @@ blockquote {
 table th,
 table td {
   background-color: #fff;
-  font-variant-caps: small-caps; }
+  font-variant-caps: small-caps; 
+  font-kerning: none;
+  color: tomato;}
 
 .table-bordered {
   background-color: #333;

@@ -161,3 +161,13 @@ html {
 height: 100%;
 width: 100%;
 }
+
+.fancy{
+    background-color: rgb(124, 109, 221);
+    font-size: small;
+    font-style: oblique;
+    color:whitesmoke;
+    font-variant-caps: all-petite-caps;
+    position: relative;
+    padding: 1rem .5rem .5rem 2rem
+}
