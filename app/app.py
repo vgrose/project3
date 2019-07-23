@@ -38,6 +38,10 @@ def worldmap():
     # """Return the homepage."""
     return render_template("Worldmap.html")
 
+@app.route("/twitterstats")
+def twitterstats():
+    # """Return the homepage."""
+    return render_template("whytwitter.html")
 
 if __name__ == "__main__":
     app.run()

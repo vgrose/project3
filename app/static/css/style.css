@@ -126,7 +126,7 @@ sup {
 
 a {
   color: #333;
-  text-decoration: underline;
+  text-decoration: overline;
   background-color: transparent; }
   a:hover {
     color: #0d0d0d;
