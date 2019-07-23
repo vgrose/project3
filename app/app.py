@@ -9,6 +9,7 @@ import numpy as np
 # from sqlalchemy import create_engine
 
 from flask import Flask, jsonify, render_template, request
+from newsapi import NewsApiClient
 
 
 app = Flask(__name__)
@@ -21,6 +22,7 @@ def index():
 
 
 @app.route("/news")
+# /v2/top-headlines
 def news():
     return render_template("news.html")
 
@@ -29,10 +31,12 @@ def news():
 def nav():
     return render_template("sidebar.html")
 
+
 @app.route("/map")
-def index():
+def worldmap():
     # """Return the homepage."""
     return render_template("Worldmap.html")
+
 
 if __name__ == "__main__":
     app.run()
