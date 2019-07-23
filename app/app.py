@@ -20,6 +20,14 @@ def index():
     return render_template("index.html")
 
 
+@app.route("/google.html")
+def news():
+    return render_template("google.html")
+
+
+@app.route("/sidebar.html")
+def nav():
+    return render_template("sidebar.html")
 
 if __name__ == "__main__":
     app.run()
