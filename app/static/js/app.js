@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $("#sideplaceholder").load("../app/templates/sidebar.html");
+  $("#sideplaceholder").load("/sidebar");
   });
  
       

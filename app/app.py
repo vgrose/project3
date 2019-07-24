@@ -28,7 +28,7 @@ def news():
     return render_template("news.html")
 
 
-@app.route("/sidebar.html")
+@app.route("/sidebar")
 def nav():
     return render_template("sidebar.html")
 
