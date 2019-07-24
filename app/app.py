@@ -13,7 +13,7 @@ from flask import Flask, jsonify, render_template, request
 # from newsapi.newsapi_client import NewsApiClient
 
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='/static')
 
 
 @app.route("/")
@@ -32,6 +32,10 @@ def news():
 def nav():
     return render_template("sidebar.html")
 
+@app.route("/bubbles")
+def bubbles():
+    return render_template("index1.html")
+
 
 @app.route("/map")
 def worldmap():
@@ -42,6 +46,8 @@ def worldmap():
 def twitterstats():
     # """Return the homepage."""
     return render_template("whytwitter.html")
+
+
 
 if __name__ == "__main__":
     app.run()

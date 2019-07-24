@@ -3,7 +3,7 @@ var spots;
 var img;
 
 function preload() {
-  img = loadImage("../images/twitter.png");
+  img=loadImage("/static/images/twitter.png");
 }
 
 function setup() {
